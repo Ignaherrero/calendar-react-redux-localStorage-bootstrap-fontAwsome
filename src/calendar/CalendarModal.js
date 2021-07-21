@@ -7,12 +7,7 @@ import moment from "moment";
 import Swal from "sweetalert2";
 import { useDispatch, useSelector } from "react-redux";
 import { uiCloseModal } from "../actions/uiActions";
-import {
-  eventAddNew,
-  eventClearActive,
-  eventClearActiveEvent,
-  eventUpdated,
-} from "../actions/events";
+import { eventAddNew, eventClearActive, eventUpdated } from "../actions/events";
 
 Modal.setAppElement("#root");
 
